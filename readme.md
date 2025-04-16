@@ -26,7 +26,8 @@ Screenshots of database creation in MongoDB Atlas.
 ### Populating the Collections in MongoDB Atlas
 
 - **Users Collection**  
-  ![Users Collection](assets/users-collection.png)
+  ![Users Collection](assets/users-collection1.png)
+  [](assets/users-collection2.png)
 
 - **Orders Collection**  
   ![Orders Collection](assets/orders-collection.png)
@@ -37,12 +38,13 @@ Screenshots of database creation in MongoDB Atlas.
 
 The connection string was replaced with: mongodb+srv://samiknj34:samik123@cluster0.ww15q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 The app was successfully connected to MongoDB Atlas.
-
+![Server Connection](assets/server-connection.png)
 Tested API endpoints using **Postman**:
 
 - `http://localhost:3000/getUserDataTest`
+  ![User Data Test](assets/user-data-collection.png)
 - `http://localhost:3000/getOrderDataTest`
-
+  ![Order Data Test](assets/order-data-collection.png)
 ---
 
 ## User Acceptance Testing
@@ -99,7 +101,7 @@ Tested API endpoints using **Postman**:
   ![Delete Confirmation](assets/delete-confirmation.png)
 
 *Console output from the Express server confirms all operations and data flow between client and server.*
-
+![Console Output](assets/console-image.png)
 ---
 
 ## Features Successfully Implemented
