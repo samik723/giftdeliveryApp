@@ -1,4 +1,4 @@
-# Gift Delivery Application Report
+# Gift Delivery Application
 
 ## Table of Contents
 - [Introduction](#introduction)
