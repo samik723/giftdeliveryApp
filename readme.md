@@ -1,4 +1,41 @@
+# Gift Delivery Application Report
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Database Creation](#database-creation)
+- [API Testing](#api-testing)
+- [User Acceptance Testing](#user-acceptance-testing)
+- [Test Plan](#test-plan)
+- [Test Outcomes](#test-outcomes)
+- [Features Successfully Implemented](#features-successfully-implemented)
+- [Features Not Successfully Implemented](#features-not-successfully-implemented)
+- [Conclusion](#conclusion)
+
+---
+
+## Introduction
+
+The Gift Delivery Application project is designed to provide a user-friendly platform for ordering and managing gift deliveries. Developed using **Node.js**, **Express.js**, **MongoDB**, and **Cordova**, the app integrates a cloud-hosted database and hybrid deployment for web and Android platforms.
+
+---
+
+## Database Creation
+
+Screenshots of database creation in MongoDB Atlas.
+
+### Populating the Collections in MongoDB Atlas
+
+- **Users Collection**  
+  ![Users Collection](assets/users-collection.png)
+
+- **Orders Collection**  
+  ![Orders Collection](assets/orders-collection.png)
+
+---
+
+## API Testing
+
+The connection string was replaced with: mongodb+srv://samiknj34:samik123@cluster0.ww15q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 The app was successfully connected to MongoDB Atlas.
 
 Tested API endpoints using **Postman**:
